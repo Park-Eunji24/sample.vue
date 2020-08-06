@@ -1,0 +1,67 @@
+.time{
+	font-size: 3.5vw;
+	color: #f4fc03;
+	text-align: center;
+}
+.f_mname{
+	margin: 30px;
+	font-size: 3vw;
+}
+.f_p {
+	font-size: 3vh;
+	margin: 20px;
+}
+.vt {
+	font-size: 4vh;
+	color: #ffffff;
+}
+.f_end {
+	font-size: 9vw;
+}
+
+/*add_css*/
+.v-application{line-height:2;}
+.row.no-gutters{overflow:hidden;width:100%;margin:0;}
+.row.no-gutters .col{float:left;width:33.33%;flex-basis: auto;flex-grow: initial;}
+.row.no-gutters .col .text-center{padding:10% 0 30%;}
+.row.no-gutters .col .text-center .f_end{font-size:7vw;}
+.row header.v-sheet{height:auto !important;}
+.row .v-toolbar__content{height:auto !important;}
+.row .v-toolbar__content .f_mname{margin:5%;font-size: 2.5vw;}
+.row .v-toolbar__content .f_p{margin:5%;font-size:1.3vw;}
+.col footer.v-footer{height:auto !important;padding:0;}
+.col footer.v-footer .row{margin:0;}
+.col footer.v-footer .v-progress-linear{height:auto !important;}
+.col footer.v-footer .v-progress-linear__determinate{padding:10.5% 0;}
+.col footer.v-footer .v-progress-linear__content .vt{font-size:2.3vw;}
+.col footer.v-footer .v-progress-linear__content .vt:nth-of-type(2){padding-right:2%;}
+.v-progress-linear__determinate{background-color:#0012ff !important;border-color:#0012ff !important;}
+
+@media only screen 
+and (max-width : 1350px) {
+  .row .v-toolbar__content .f_mname{font-size: 2.5vw;}
+  .row .v-toolbar__content .f_p{font-size: 1.3vw;}
+  .col footer.v-footer .v-progress-linear__content .vt{font-size:2vw;}
+.row.no-gutters .col .text-center .f_end{font-size:6.5vw;}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1200px) {
+.row .v-toolbar__content .f_mname{font-size: 2.3vw;}
+.row .v-toolbar__content .f_p{font-size: 1.3vw;}
+.row.no-gutters .col .text-center .f_end{font-size:6.5vw;}
+}
+
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+.row .v-toolbar__content .f_mname{font-size: 1.5vw;letter-spacing: -0.5px;}
+.row .v-toolbar__content .f_p{font-size: 1vw;letter-spacing: -1px}
+.col footer.v-footer .v-progress-linear__content .vt{font-size:1.5vw;}
+.row.no-gutters .col .text-center .f_end{font-size:5vw;}.col footer.v-footer .v-progress-linear__content .vt:nth-of-type(2){padding-right:0;}
+}
+
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+  .row.no-gutters .col .text-center .f_end{font-size: 7.5vw;}
+.row .v-toolbar__content .f_mname{margin:5% 0;font-size: 1vw;letter-spacing: -1px;}
+.row .v-toolbar__content .f_p{margin:1%;font-size:0.5vw;letter-spacing: -1.5px;}
+.col footer.v-footer .v-progress-linear__content .vt{font-size:1.5vw;}
+.row.no-gutters .col .text-center .f_end{font-size:5vw;}.col footer.v-footer .v-progress-linear__content .vt:nth-of-type(2){padding-right:0;}
+}
